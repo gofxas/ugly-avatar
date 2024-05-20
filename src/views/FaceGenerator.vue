@@ -52,8 +52,6 @@
           />
         </linearGradient>
       </defs>
-      <title>That's an ugly face</title>
-      <desc>CREATED BY XUAN TANG, MORE INFO AT TXSTC55.GITHUB.IO</desc>
       <rect
         x="-100"
         y="-100"
