@@ -263,8 +263,8 @@
         />
       </g>
     </svg>
-    <button @click="generateFace">ANOTHER</button>
-    <button @click="downloadSVGAsPNG">DOWNLOAD</button>
+    <button @click="generateFace">重新生成</button>
+    <button @click="downloadSVGAsPNG">下载</button>
   </div>
 </template>
 
@@ -565,9 +565,11 @@ export default {
   justify-content: center;
   background-color: #ffffff;
   padding: 5px;
+  min-width: 350px;
 }
 svg {
   background-color: #ffffff;
+  width: 100%;
 }
 button {
   margin-top: 10px;
@@ -593,4 +595,5 @@ button:active {
   background: rgb(65, 65, 65);
   box-shadow: 1px 1px 0px 0px rgba(0, 0, 0, 0.75);
 }
+
 </style>
