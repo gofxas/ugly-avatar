@@ -529,7 +529,7 @@ export default {
         ctx.drawImage(img, 0, 0);
         const a = document.createElement("a");
         const e = new MouseEvent("click");
-        a.download = "face.png";
+        a.download = "face-" + new Date().getTime() + ".png";
         a.href = canvas.toDataURL("image/png");
         a.dispatchEvent(e);
       };
@@ -596,5 +596,4 @@ button:active {
   background: rgb(65, 65, 65);
   box-shadow: 1px 1px 0px 0px rgba(0, 0, 0, 0.75);
 } */
-
 </style>
