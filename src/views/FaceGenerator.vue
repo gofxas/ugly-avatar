@@ -3,8 +3,8 @@
     <svg
       viewBox="-100 -100 200 200"
       xmlns="http://www.w3.org/2000/svg"
-      width="500"
-      height="500"
+      width="350"
+      height="350"
       id="face-svg"
     >
       <defs>
@@ -586,14 +586,15 @@ button {
   box-shadow: 2px 2px 0px 0px rgba(0, 0, 0, 0.75);
 }
 
-button:hover {
+button:active {
   background: black;
   color: white;
   transition: 0.3s;
-}
-button:active {
-  background: rgb(65, 65, 65);
   box-shadow: 1px 1px 0px 0px rgba(0, 0, 0, 0.75);
 }
+/* button:active {
+  background: rgb(65, 65, 65);
+  box-shadow: 1px 1px 0px 0px rgba(0, 0, 0, 0.75);
+} */
 
 </style>
